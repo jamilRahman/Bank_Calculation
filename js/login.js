@@ -9,10 +9,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
 
   if(email === 'sontan@baap.com' && password === 'secret'){
-    console.log('valid user')
+    window.location.href = 'bank.html';
   }
   else{
-    console.log('invalid user')
+       alert('tui password vule gecos!! Toke ami tejjo sontan gosona korlam')
   }
 })
 
